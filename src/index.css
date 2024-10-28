@@ -1,3 +1,12 @@
+:root {
+  --back-blue: #3D52A0;
+  --blue-two: #7091E6;
+  --grey: #8697C4;
+  --light-grey: #ADBBDA;
+  --off-white: #EDE8F5;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +14,72 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--back-blue);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.back-blue{
+  background-color: var(--back-blue);
+}
+
+.bg-blue-two {
+  background-color: var(--blue-two);
+}
+
+.bg-grey {
+  background-color: var(--grey);
+}
+
+.bg-light-grey {
+  background-color: var(--light-grey);
+}
+
+.bg-off-white {
+  background-color: var(--off-white);
+}
+
+/* Text color utility classes */
+.text-back-blue {
+  color: var(--back-blue);
+}
+
+.text-blue-two {
+  color: var(--blue-two);
+}
+
+.text-grey {
+  color: var(--grey);
+}
+
+.text-light-grey {
+  color: var(--light-grey);
+}
+
+.text-off-white {
+  color: var(--off-white);
+}
+
+/* Border color utility classes */
+.border-back-blue {
+  border-color: var(--back-blue);
+}
+
+.border-blue-two {
+  border-color: var(--blue-two);
+}
+
+.border-grey {
+  border-color: var(--grey);
+}
+
+.border-light-grey {
+  border-color: var(--light-grey);
+}
+
+.border-off-white {
+  border-color: var(--off-white);
 }

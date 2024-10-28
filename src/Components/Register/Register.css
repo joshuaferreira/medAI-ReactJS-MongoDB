@@ -1,0 +1,33 @@
+.register-card{
+    max-width: 500px;
+}
+
+.container {
+    background-color: #f9f9f9;
+}
+
+.card {
+    border-radius: 10px;
+  }
+
+  /* Login.css */
+.is-invalid {
+    border-color: #dc3545; /* Red border for invalid input */
+  }
+  
+  .invalid-feedback {
+    color: #dc3545; /* Red text for error message */
+  }
+
+  /* Styles for displaying error messages as a list */
+.invalid-feedback ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .invalid-feedback li {
+    color: #dc3545; /* Bootstrap's red color for errors */
+    font-size: 0.9em;
+  }
+  
